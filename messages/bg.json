@@ -1438,5 +1438,842 @@
       "outputPricePerMillion": "Изход $/1M токени",
       "highlightTokens": "Маркирай токени"
     }
+  },
+  "appBanner": {
+    "message": "Вземете приложението prompts.chat за iPhone, iPad и Mac",
+    "messageShort": "Вземете приложението за Apple устройства",
+    "download": "Изтегли",
+    "dismiss": "Затвори"
+  },
+  "about": {
+    "title": "За prompts.chat",
+    "description": "Историята зад първата по рода си библиотека с AI промптове, създадена 2 седмици след обявяването на ChatGPT.",
+    "releasedOn": "5 декември 2022",
+    "storyTitle": "Нашата история",
+    "goalTitle": "Нашата цел",
+    "story1Rich": "prompts.chat е уеб визуализацията на хранилището <repoLink>Awesome ChatGPT Prompts</repoLink>. Започна като личен проект на <authorLink>@f</authorLink> за организиране на ChatGPT промптове, когато ChatGPT нямаше функция за история в първоначалната си версия.",
+    "story2": "Хранилището Awesome ChatGPT Prompts е създадено на 5 декември 2022 г., само 2 седмици след първото обявяване на ChatGPT пред света. Това, което започна като просто решение, се превърна в основен ресурс за милиони ентусиасти на AI.",
+    "testimonialsRich": "Обичан от пионерите в AI, включително съоснователите на OpenAI <gregLink>Greg Brockman</gregLink> и <wojciechLink>Wojciech Zaremba</wojciechLink>.",
+    "openSource": "Напълно безплатен и с отворен код от първия ден.",
+    "goal1Rich": "Вярваме в силата на споделянето. Нашата мисия е да направим <bold>техниките за контекстно инженерство на AI споделени от милиони</bold>, от общността, за всички.",
+    "goal2Rich": "Всеки промпт, всяка техника, всяко споделено прозрение тук принадлежи на човечеството. Затова избрахме лиценза <licenseLink>CC0 (Публично достояние)</licenseLink>: без ограничения, без необходимост от посочване на автора. Просто чисто знание за всички.",
+    "goal3": "Независимо дали сте студент, който учи AI, разработчик, който изгражда следващия пробив, или просто любопитни какво е възможно: това е вашата библиотека. Използвайте я, споделяйте я, надграждайте я.",
+    "achievementsTitle": "Постижения",
+    "pressCategoryTitle": "Преса и медии",
+    "academicCategoryTitle": "Академично признание",
+    "communityCategoryTitle": "Общност и GitHub",
+    "featuredForbes": "Представен във <link>Forbes</link>",
+    "featuredTagesspiegel": "Представен в <link>Der Tagesspiegel</link>",
+    "referencedHarvard": "Цитиран от <link>Харвардски университет</link>",
+    "referencedColumbia": "Цитиран от <link>Колумбийски университет</link>",
+    "referencedOlympic": "Цитиран от <link>Olympic College</link>",
+    "googleScholarCitations": "<link>40+ академични цитирания</link> в Google Scholar",
+    "githubStars": "<link>141k+ GitHub звезди</link>, най-звездното хранилище с промптове",
+    "githubStaffPick": "Избран като <link>Избор на персонала на GitHub</link>",
+    "referencedGithubBlog": "Цитиран в <link>GitHub блог</link>",
+    "huggingFace": "Най-харесваният набор от данни в <link>Hugging Face</link>",
+    "usedByDevelopers": "Използван от хиляди разработчици по света",
+    "supportUsTitle": "Подкрепете ни",
+    "supportUsIntro": "Изграждаме това като нетърговски CC-0 проект и не искаме нищо в замяна. Поддържаме го благодарение на нашите невероятни спонсори. За да ми помогнете да продължа да разработвам този продукт, моля, помислете за подкрепа.",
+    "githubSponsorsTitle": "GitHub спонсори",
+    "githubSponsorsDescription": "Станете спонсор за $800/месец в GitHub и получете логото си на началната страница.",
+    "becomeSponsor": "Стани спонсор",
+    "supportersTitle": "Стена на поддръжниците",
+    "supportersDescription": "Абонирайте се за $9.99/месец, за да поддържате общността, получете значка за верификация и вижте името си на стената. Отменете по всяко време.",
+    "supportNow": "Подкрепи сега",
+    "techStackTitle": "Технологична еволюция",
+    "coreContributorsTitle": "Основни сътрудници",
+    "designCreditsTitle": "Дизайн",
+    "ideationTitle": "Идея",
+    "communityContributorsTitle": "Сътрудници от общността",
+    "viewAllContributors": "Вижте всички сътрудници в"
+  },
+  "kids": {
+    "header": {
+      "title": "Училището за промптове на Проми",
+      "levels": "нива",
+      "home": "Начало",
+      "map": "Карта",
+      "mainSite": "Основен сайт"
+    },
+    "home": {
+      "badge": "Учене за деца",
+      "title": "Научи се да говориш с AI!",
+      "subtitle": "Присъединете се към робота Проми в забавно приключение, за да научите как да пишете страхотни промптове!",
+      "promiIntro": {
+        "greeting": "Здравей, аз съм Проми! 🤖",
+        "message": "Аз съм приятелски робот, който се нуждае от ТВОЯТА помощ! Ще ме научиш ли как да разбирам промптовете по-добре?"
+      },
+      "features": {
+        "games": {
+          "title": "Забавни игри",
+          "description": "Учи чрез игри с плъзгане и пускане и куизове"
+        },
+        "stories": {
+          "title": "Готини истории",
+          "description": "Последвай Проми в вълнуващи приключения"
+        },
+        "stars": {
+          "title": "Спечели звезди",
+          "description": "Събирай звезди и отключвай нови нива"
+        }
+      },
+      "startButton": "Започни да играеш!",
+      "ageNote": "Най-подходящо за деца на възраст 8-14 години, които могат да четат и пишат",
+      "whatYouLearn": "Какво ще научиш",
+      "readyTitle": "Готови ли сте да започнете?",
+      "readyMessage": "Да тръгнем на приключение и да научим как да говорим с AI!"
+    },
+    "navigation": {
+      "back": "Назад",
+      "next": "Напред",
+      "completeFirst": "Първо завършете дейността, за да продължите"
+    },
+    "map": {
+      "title": "Карта на света",
+      "subtitle": "Изберете ниво и започнете приключението си!",
+      "worldLevels": "{count} нива",
+      "levelNumber": "Ниво {number}",
+      "locked": "Завършете предишното ниво, за да отключите"
+    },
+    "worlds": {
+      "1": {
+        "title": "Начално село"
+      },
+      "2": {
+        "title": "Замъкът на яснотата"
+      },
+      "3": {
+        "title": "Пещерите на контекста"
+      },
+      "4": {
+        "title": "Каньонът на създаването"
+      },
+      "5": {
+        "title": "Планината на майсторството"
+      }
+    },
+    "levels": {
+      "1_1_meet_promi": {
+        "title": "Запознай се с Проми!",
+        "description": "Кажи здравей на твоя приятел робот и научи какво е AI"
+      },
+      "1_2_first_words": {
+        "title": "Първите думи на Проми",
+        "description": "Помогни на Проми да разбере, като напишеш първия си промпт"
+      },
+      "1_3_being_clear": {
+        "title": "Бъди ясен",
+        "description": "Научи защо ясните инструкции работят по-добре"
+      },
+      "2_1_missing_details": {
+        "title": "Липсващите детайли",
+        "description": "Открий защо детайлите са важни — неясни срещу конкретни промптове"
+      },
+      "2_2_who_and_what": {
+        "title": "Кой и какво",
+        "description": "Добави герои и обекти, за да оживиш промптовете"
+      },
+      "2_3_when_and_where": {
+        "title": "Кога и къде",
+        "description": "Научи се да добавяш време и място в промптовете си"
+      },
+      "2_4_detail_detective": {
+        "title": "Детективът на детайлите",
+        "description": "Стани майстор в добавянето на точните детайли"
+      },
+      "3_1_setting_the_scene": {
+        "title": "Подготовка на сцената",
+        "description": "Научи защо фоновата информация помага на AI да те разбере"
+      },
+      "3_2_show_dont_tell": {
+        "title": "Покажи, не казвай",
+        "description": "Използвай примери, за да покажеш на AI точно какво искаш"
+      },
+      "3_3_format_finder": {
+        "title": "Откривателят на формати",
+        "description": "Поискай списъци, истории, стихове и много повече!"
+      },
+      "3_4_context_champion": {
+        "title": "Шампион по контекст",
+        "description": "Комбинирай всички техники за контекст като професионалист"
+      },
+      "4_1_pretend_time": {
+        "title": "Време за преструване!",
+        "description": "Научи промптове за ролева игра — «Действай като...»"
+      },
+      "4_2_story_starters": {
+        "title": "Начала на истории",
+        "description": "Създавай невероятни истории с AI като твой съавтор"
+      },
+      "4_3_character_creator": {
+        "title": "Създател на герои",
+        "description": "Дай на AI личност и гледай как оживява"
+      },
+      "4_4_world_builder": {
+        "title": "Строител на светове",
+        "description": "Създавай въображаеми светове и сценарии"
+      },
+      "5_1_perfect_prompt": {
+        "title": "Перфектният промпт",
+        "description": "Комбинирай яснота, детайли и контекст заедно"
+      },
+      "5_2_fix_it_up": {
+        "title": "Поправи го!",
+        "description": "Намери и подобри слаби промптове"
+      },
+      "5_3_prompt_remix": {
+        "title": "Ремикс на промптове",
+        "description": "Пренапиши промптове за различни резултати"
+      },
+      "5_4_graduation_day": {
+        "title": "Ден на дипломирането",
+        "description": "Последното предизвикателство — стани Промпт Майстор!"
+      }
+    },
+    "level": {
+      "backToMap": "Назад към картата",
+      "levelLabel": "Ниво {number}",
+      "comingSoon": "Това ниво идва скоро!",
+      "previous": "Предишно",
+      "next": "Следващо",
+      "map": "Карта"
+    },
+    "levelComplete": {
+      "title": "Нивото е завършено!",
+      "nextLevel": "Следващо ниво",
+      "backToMap": "Назад към картата",
+      "allDone": "Назад към картата"
+    },
+    "quiz": {
+      "goodLabel": "Страхотен промпт!",
+      "badLabel": "Не е най-добрият",
+      "correct": "Позна!",
+      "incorrect": "Добър опит!",
+      "tryAgain": "Опитай пак"
+    },
+    "magicWords": {
+      "title": "Плъзни магическите думи! ✨",
+      "dragOrTap": "🎯 Плъзни или натисни думи:",
+      "check": "Провери!",
+      "retry": "Отново",
+      "correct": "правилно",
+      "tryAgain": "Опитай пак!"
+    },
+    "dragDrop": {
+      "title": "Построй промпта!",
+      "instruction": "Използвай стрелки за преместване на частите или натисни две части, за да ги размениш!",
+      "result": "Резултат",
+      "check": "Провери!",
+      "retry": "Отново",
+      "success": "Перфектно! Построи страхотен промпт!",
+      "almost": "Почти! Продължи да подреждаш.",
+      "tapToSwap": "Натисни друга част, за да размениш позициите!"
+    },
+    "promptParts": {
+      "title": "Сортирай частите на промпта!",
+      "instruction": "Натисни всяка част, след което избери от какъв тип е!",
+      "score": "Резултат",
+      "pickCategory": "Какъв тип е тази?",
+      "success": "Сортира всички части правилно!",
+      "retry": "Опитай пак",
+      "types": {
+        "role": "Роля",
+        "task": "Задача",
+        "context": "Контекст",
+        "constraint": "Ограничение"
+      }
+    },
+    "exampleMatcher": {
+      "title": "Съвпадение на модели",
+      "instruction": "Разгледай модела и избери какво следва!",
+      "pattern": "Моделът:",
+      "check": "Провери!",
+      "retry": "Опитай пак",
+      "correct": "Позна! 🎉",
+      "tryAgain": "Не съвсем — разгледай модела отново!"
+    },
+    "promptDoctor": {
+      "title": "Промпт доктор",
+      "health": "Здраве на промпта",
+      "sick": "Болен промпт",
+      "healthy": "Здрав промпт!",
+      "diagnose": "Кликни върху проблем, за да го поправиш:",
+      "success": "Промптът вече е здрав!",
+      "retry": "Започни отначало"
+    },
+    "stepByStep": {
+      "title": "Мисли стъпка по стъпка",
+      "problem": "Проблемът:",
+      "withoutMagic": "Без магически думи:",
+      "addMagicWords": "Добави магическите думи!",
+      "magicWordsActive": "Магическите думи са добавени!",
+      "nextStep": "Разкрий следващата стъпка",
+      "withMagic": "Със стъпково мислене:",
+      "retry": "Опитай пак"
+    },
+    "promptLab": {
+      "title": "Лаборатория за промптове",
+      "progress": "Подобрения",
+      "yourPrompt": "Вашият промпт:",
+      "aiSays": "AI отговор:",
+      "addDetails": "Добавете подобрения:",
+      "success": "Вашият промпт вече е супер конкретен!",
+      "retry": "Започни отначало"
+    },
+    "wordPredictor": {
+      "title": "Как мисли AI",
+      "instruction": "AI отгатва най-вероятната следваща дума. Можеш ли да мислиш като AI?",
+      "aiThinks": "AI чете:",
+      "thinkingDefault": "Хм, коя дума би имала най-много смисъл тук?",
+      "check": "Провери моето предположение!",
+      "correct": "Мислиш като AI!",
+      "tryAgain": "Не съвсем! AI избира най-вероятната дума.",
+      "retry": "Опитай пак"
+    },
+    "settings": {
+      "title": "Настройки",
+      "music": "Музика",
+      "language": "Език",
+      "progress": "Вашият прогрес",
+      "stars": "Звезди",
+      "completed": "Завършени",
+      "resetTitle": "Нулиране на прогреса",
+      "resetButton": "Нулирай целия прогрес",
+      "resetWarning": "Това ще изтрие всички ваши звезди и прогрес. Сигурни ли сте?",
+      "resetConfirm": "Да, нулирай всичко",
+      "resetComplete": "Прогресът е нулиран! Презареждане...",
+      "cancel": "Отказ"
+    }
+  },
+  "book": {
+    "title": "Интерактивната книга за промптинг",
+    "donate": "Подкрепете проекта",
+    "subtitle": "Интерактивно ръководство за създаване на ясни и ефективни промптове",
+    "metaTitle": "Интерактивната книга за промптинг | Безплатно онлайн ръководство за AI промпт инженерство",
+    "metaDescription": "Овладейте AI промпт инженерството с това безплатно, интерактивно ръководство. Научете ChatGPT промптове, верижно мислене, обучение с малко примери и напреднали техники. 25+ глави с реални примери.",
+    "interactiveGuideBy": "Интерактивно ръководство от",
+    "authorIntro": "Здравейте, аз съм <author>Fatih Kadir Akın</author>, куратор на популярното хранилище <repoLink>Awesome ChatGPT Prompts</repoLink> в GitHub и <siteName>prompts.chat</siteName>.",
+    "bookDescription": "В това изчерпателно и интерактивно ръководство ще откриете експертни стратегии за създаване на убедителни AI промптове, които водят до ангажиращи и ефективни разговори. От разбирането как работят AI моделите до овладяването на напреднали техники като верижно промптиране и агентни системи, тази книга ви предоставя инструментите, от които се нуждаете, за да издигнете AI взаимодействията си на следващо ниво.",
+    "whatYouWillLearn": "Какво ще научите:",
+    "highlights": {
+      "understanding": "Разбиране как AI моделите мислят и обработват промптове",
+      "crafting": "Създаване на ясни, конкретни и ефективни промптове",
+      "advanced": "Напреднали техники: верижно мислене, обучение с малко примери и верижно промптиране",
+      "interactive": "Интерактивни примери, които можете да опитате директно в браузъра",
+      "realWorld": "Реални случаи на употреба за писане, кодиране, образование и бизнес",
+      "future": "Бъдещето на промптинга: агенти и агентни системи"
+    },
+    "bookStructure": "Структура на книгата",
+    "structure": {
+      "introduction": "Въведение",
+      "part1": "Част 1: Основи",
+      "part2": "Част 2: Техники",
+      "part3": "Част 3: Напреднали стратегии",
+      "part4": "Част 4: Най-добри практики",
+      "part5": "Част 5: Случаи на употреба",
+      "part6": "Част 6: Заключение",
+      "chapters": "25 интерактивни глави"
+    },
+    "startReading": "Започнете да четете",
+    "skipToChapter1": "Прескочи към Глава 1",
+    "continuousUpdate": "Тази книга е непрекъснато обновявана с нови техники и прозрения, докато AI се развива.",
+    "partOfProject": "Част от проекта <repoLink>Awesome ChatGPT Prompts</repoLink>. Лицензирано под CC0.",
+    "kidsSection": {
+      "question": "Вие сте учител или родител?",
+      "title": "Опитайте нашата играема книга за деца! 🎮",
+      "description": "Интерактивно, базирано на игри приключение, за да научи децата (на възраст 8-14) как да комуникират с AI чрез забавни пъзели и истории.",
+      "startPlaying": "Започни да играеш"
+    },
+    "chapter": {
+      "notFound": "Главата не е намерена",
+      "comingSoon": "Тази глава идва скоро.",
+      "previous": "Предишна",
+      "next": "Следваща"
+    },
+    "tableOfContents": "Съдържание",
+    "awesomeChatGPTPrompts": "Awesome ChatGPT Prompts",
+    "search": {
+      "placeholder": "Търсене на глави...",
+      "noResults": "Не са намерени глави"
+    },
+    "bookmark": {
+      "add": "Маркирай тази глава",
+      "remove": "Премахни маркера",
+      "continueReading": "Продължете откъдето спряхте",
+      "continue": "Продължи"
+    },
+    "parts": {
+      "introduction": "Въведение",
+      "foundations": "Основи",
+      "techniques": "Техники",
+      "advanced": "Напреднали стратегии",
+      "bestPractices": "Най-добри практики",
+      "useCases": "Случаи на употреба",
+      "conclusion": "Заключение"
+    },
+    "chapters": {
+      "00a-preface": "Предговор",
+      "00b-history": "История",
+      "00c-introduction": "Въведение",
+      "01-understanding-ai-models": "Разбиране на AI модели",
+      "02-anatomy-of-effective-prompt": "Анатомия на ефективен промпт",
+      "03-core-prompting-principles": "Основни принципи на промптинга",
+      "04-role-based-prompting": "Ролево промптиране",
+      "05-structured-output": "Структуриран изход",
+      "06-chain-of-thought": "Верижно мислене",
+      "07-few-shot-learning": "Обучение с малко примери",
+      "08-iterative-refinement": "Итеративно усъвършенстване",
+      "09-json-yaml-prompting": "JSON и YAML промптиране",
+      "10-system-prompts-personas": "Системни промптове и персони",
+      "11-prompt-chaining": "Верижно промптиране",
+      "12-handling-edge-cases": "Обработка на гранични случаи",
+      "13-multimodal-prompting": "Мултимодално промптиране",
+      "14-context-engineering": "Контекстно инженерство",
+      "25-agents-and-skills": "Агенти и умения",
+      "15-common-pitfalls": "Често срещани капани",
+      "16-ethics-responsible-use": "Етика и отговорна употреба",
+      "17-prompt-optimization": "Оптимизация на промптове",
+      "18-writing-content": "Писане и съдържание",
+      "19-programming-development": "Програмиране и разработка",
+      "20-education-learning": "Образование и учене",
+      "21-business-productivity": "Бизнес и продуктивност",
+      "22-creative-arts": "Творчески изкуства",
+      "23-research-analysis": "Изследвания и анализ",
+      "24-future-of-prompting": "Бъдещето на промптинга"
+    },
+    "chapterDescriptions": {
+      "00a-preface": "Лична бележка от автора",
+      "00b-history": "Историята на Awesome ChatGPT Prompts",
+      "00c-introduction": "Какво е промпт инженерство и защо е важно",
+      "01-understanding-ai-models": "Как работят големите езикови модели",
+      "02-anatomy-of-effective-prompt": "Компоненти, които правят промптовете ефективни",
+      "03-core-prompting-principles": "Основни принципи за по-добри промптове",
+      "04-role-based-prompting": "Ефективно използване на персони и роли",
+      "05-structured-output": "Получаване на последователни, форматирани отговори",
+      "06-chain-of-thought": "Стъпково разсъждение за сложни задачи",
+      "07-few-shot-learning": "Обучение чрез примери",
+      "08-iterative-refinement": "Подобряване на промптове чрез итерация",
+      "09-json-yaml-prompting": "Структурирани формати за данни в промптове",
+      "10-system-prompts-personas": "Създаване на последователни AI личности",
+      "11-prompt-chaining": "Свързване на множество промптове",
+      "12-handling-edge-cases": "Справяне с неочаквани входове",
+      "13-multimodal-prompting": "Работа с изображения, аудио и видео",
+      "14-context-engineering": "RAG, вграждания, извикване на функции и MCP",
+      "25-agents-and-skills": "Изграждане на AI агенти с многократно използваеми пакети с умения",
+      "15-common-pitfalls": "Грешки, които да избягвате",
+      "16-ethics-responsible-use": "Етични съображения в AI",
+      "17-prompt-optimization": "Тестване и подобряване на промптове",
+      "18-writing-content": "Създаване на съдържание и копирайтинг",
+      "19-programming-development": "Генериране на код и отстраняване на грешки",
+      "20-education-learning": "Приложения за преподаване и учене",
+      "21-business-productivity": "Професионални и работни приложения",
+      "22-creative-arts": "Артистични и творчески приложения",
+      "23-research-analysis": "Анализ на данни и изследователски задачи",
+      "24-future-of-prompting": "Нововъзникващи тенденции и поглед напред"
+    },
+    "interactive": {
+      "tryIt": "Опитайте сами",
+      "copy": "Копирай",
+      "copied": "Копирано!",
+      "correct": "Правилно!",
+      "notQuite": "Не съвсем.",
+      "nextTokenPrediction": "Предсказване на следващ токен",
+      "watchHowAIPredicts": "Вижте как AI предсказва следващия токен на всяка стъпка",
+      "replay": "Повтори",
+      "playing": "Изпълнение...",
+      "play": "Пусни",
+      "pressPlayToStart": "Натиснете Пусни, за да започнете...",
+      "completingCurrentToken": "Завършване на текущия токен:",
+      "top3PredictedNextTokens": "Топ 3 предсказани следващи токени:",
+      "howItWorks": "Как работи:",
+      "howItWorksExplanation": "На всяка стъпка моделът изчислява вероятности за всички възможни следващи токени (~50 000+). Токенът с най-висока вероятност е избран, след което процесът се повтаря.",
+      "tokenizerDemo": "Демо на токенизатор",
+      "seeHowTextIsSplit": "Вижте как текстът се разделя на токени",
+      "enterText": "Въведете текст:",
+      "tokens": "токени",
+      "tryExamples": "Опитайте: \"Unbelievable\", \"ChatGPT is amazing\" или напишете свой текст",
+      "contextWindowVisualizer": "Визуализатор на контекстен прозорец",
+      "understandHowContextIsConsumed": "Разберете как се консумира контекстът",
+      "contextWindow": "Контекстен прозорец",
+      "remaining": "оставащи",
+      "prompt": "Промпт",
+      "response": "Отговор",
+      "yourPrompt": "Вашият промпт:",
+      "aiResponse": "AI отговор",
+      "contextOverflow": "Препълване на контекста!",
+      "contextOverflowMessage": "Вашият промпт + отговор надвишават контекстния прозорец. Моделът ще отреже или ще се провали. Опитайте да намалите дължината на промпта или поискайте по-кратки отговори.",
+      "tipLabel": "Съвет:",
+      "contextTip": "Както вашият промпт, ТАКА И отговорът на AI трябва да се поберат в контекстния прозорец. По-дългите промптове оставят по-малко място за отговори. Поставете важната информация в началото на промпта.",
+      "temperatureDemo": "Демо на температура",
+      "seeHowRandomnessAffects": "Вижте как случайността влияе на изходите",
+      "temperature": "Температура",
+      "deterministic": "Детерминистичен",
+      "balanced": "Балансиран",
+      "creative": "Творчески",
+      "veryCreative": "Много творчески",
+      "focused": "Фокусиран",
+      "random": "Случаен",
+      "possibleResponsesAtThisTemp": "Възможни отговори при тази температура:",
+      "useLowTemperature": "Използвайте ниска температура",
+      "useHighTemperature": "Използвайте висока температура",
+      "forFactualAnswers": "за фактически, последователни отговори.",
+      "forCreativeWriting": "за творческо писане и брейнсторминг.",
+      "structuredOutputDemo": "Демо на структуриран изход",
+      "seeTheDifferenceStructureMakes": "Вижте каква разлика прави структурата",
+      "unstructured": "Неструктуриран",
+      "output": "Изход:",
+      "youCan": "Можете да:",
+      "parseProgrammatically": "Парсирате програмно",
+      "compareAcrossQueries": "Сравнявате между заявки",
+      "integrateIntoWorkflows": "Интегрирате в работни процеси",
+      "validateForCompleteness": "Валидирате за пълнота",
+      "parseProgrammaticallyLabel": "Програмно парсиране:",
+      "complexRegexRequired": "Необходим е сложен regex или NLP",
+      "unreliableBreaksWithChanges": "Ненадеждно, чупи се при леки промени в изразяването",
+      "simpleAndReliable": "Просто и надеждно",
+      "parseableWithMarkdown": "Парсируемо с markdown библиотека",
+      "fewShotLearningDemo": "Демо на обучение с малко примери",
+      "seeHowExamplesImproveAccuracy": "Вижте как примерите подобряват точността",
+      "numberOfExamples": "Брой примери",
+      "zeroShot": "Нула примера",
+      "oneShot": "Един пример",
+      "twoShot": "Два примера",
+      "threeShot": "Три примера",
+      "examplesProvided": "Предоставени примери:",
+      "testInput": "Тестов вход:",
+      "modelPrediction": "Предсказание на модела:",
+      "confidence": "Увереност:",
+      "expected": "Очаквано:",
+      "formatComparison": "Сравнение на формати",
+      "sameDataDifferentFormats": "Едни и същи данни, различни формати",
+      "defineStructureWithTypeScript": "Определете структурата с TypeScript интерфейси",
+      "machineReadableStrictSyntax": "Машинно четим, строг синтаксис, чудесен за API",
+      "humanReadableSupportsComments": "Човешки четим, поддържа коментари, чудесен за конфигурация",
+      "defineSchema": "Определете схема",
+      "apisAndParsing": "API и парсиране",
+      "configFiles": "Конфигурационни файлове",
+      "iterativeRefinementDemo": "Демо на итеративно усъвършенстване",
+      "watchAPromptEvolve": "Наблюдавайте как промпт се развива",
+      "pause": "Пауза",
+      "versionXOfY": "Версия {current} / {total}",
+      "newInThisVersion": "Ново в тази версия",
+      "quality": "Качество",
+      "issue": "Проблем:",
+      "success": "Успех",
+      "successMessage": "Промптът вече произвежда висококачествен, последователен изход.",
+      "apiCostCalculator": "Калкулатор на API разходи",
+      "inputTokens": "Входни токени (на заявка)",
+      "outputTokens": "Изходни токени (на заявка)",
+      "inputPrice": "Цена на вход ($ на 1M токени)",
+      "outputPrice": "Цена на изход ($ на 1M токени)",
+      "requestsPerDay": "Заявки на ден",
+      "perRequest": "На заявка",
+      "dailyCost": "Дневни разходи",
+      "monthlyCost": "Месечни разходи",
+      "textToImageBuildPrompt": "Текст-към-изображение: Създайте вашия промпт",
+      "selectOptionsToBuiltImagePrompt": "Изберете опции от всяка категория, за да изградите промпт за изображение:",
+      "generatedPrompt": "Генериран промпт",
+      "simulateDiffusionProcess": "Симулирай процес на дифузия",
+      "diffusionStep1": "Започни от случаен шум",
+      "diffusionStep2": "Открий грубите форми",
+      "diffusionStep3": "Добави основни цветове и форми",
+      "diffusionStep4": "Усъвършенствай детайлите",
+      "diffusionStep5": "Финално изображение",
+      "diffusionExplanation": "Реалните модели на дифузия изпълняват хиляди стъпки, постепенно премахвайки шума, докато се появи съгласувано изображение.",
+      "textToVideoBuildPrompt": "Текст-към-видео: Създайте вашия промпт",
+      "videoPromptsNeed": "Видео промптовете се нуждаят от движение, работа с камера и времеви рамки:",
+      "playAnimation": "Пусни анимация",
+      "stop": "Стоп",
+      "frame": "Кадър:",
+      "consistency": "Последователност:",
+      "consistencyDesc": "Обектът остава еднакъв през кадрите",
+      "motion": "Движение:",
+      "motionDesc": "Позицията се променя плавно с течение на времето",
+      "physics": "Физика:",
+      "physicsDesc": "Движението следва естествени закони",
+      "simplifiedAnimationPreview": "Опростен преглед на анимация",
+      "videoModelExplanation": "Реалните видео модели генерират 24-60 кадъра в секунда с фотореалистични детайли и последователни обекти.",
+      "embeddingsVisualization": "Визуализация на вграждания",
+      "clickWordToSeeVector": "Кликнете върху дума, за да видите нейния вектор и сходство с други думи:",
+      "vector": "вектор",
+      "similarityTo": "Сходство с:",
+      "embeddingsExplanation": "Думи с подобни значения (като \"happy\" и \"joyful\") имат подобни вектори и получават високи резултати за сходство.",
+      "canDoWell": "Може да се справи добре",
+      "cannotDo": "Не може да направи",
+      "promptBuilder": "Конструктор на промптове",
+      "buildYourPromptStepByStep": "Създайте промпта си стъпка по стъпка",
+      "pleaseAddTask": "Моля, добавете поне една задача към промпта си",
+      "rateLimitReached": "Лимитът е достигнат. Опитайте отново след:",
+      "orSignInForMore": "или влезте за повече.",
+      "failedToRunPrompt": "Неуспешно изпълнение на промпт",
+      "runWithAI": "Изпълни с AI",
+      "failedToConnectApi": "Неуспешно свързване с API",
+      "day": "ден",
+      "promptAnalyzer": "Анализатор на промптове",
+      "getAiFeedbackOnPrompt": "Получете AI обратна връзка за вашия промпт",
+      "pasteOrWritePromptHere": "Поставете или напишете вашия промпт тук...",
+      "analyze": "Анализирай",
+      "pleaseEnterPromptToAnalyze": "Моля, въведете промпт за анализ",
+      "failedToAnalyzePrompt": "Неуспешен анализ на промпт",
+      "clarity": "Яснота",
+      "specificity": "Конкретност",
+      "missingElements": "Липсващи елементи",
+      "suggestions": "Предложения",
+      "improvedVersion": "Подобрена версия",
+      "summarizationStrategies": "Стратегии за обобщаване",
+      "originalConversation": "Оригинален разговор",
+      "after": "След:",
+      "summary": "Обобщение",
+      "keptMessages": "Запазени съобщения",
+      "saved": "Спестени:",
+      "part": "Част",
+      "demoExamples": {
+        "tokenPrediction": {
+          "tokens": [
+            "The",
+            " capital",
+            " of",
+            " France",
+            " is",
+            " Paris",
+            "."
+          ],
+          "fullText": "The capital of France is Paris."
+        },
+        "tokenizer": {
+          "default": "example1",
+          "samples": {
+            "example1": {
+              "text": "Hello, world!",
+              "tokens": [
+                "Hel",
+                "lo",
+                ",",
+                " wor",
+                "ld",
+                "!"
+              ]
+            },
+            "example2": {
+              "text": "Washington D.C.",
+              "tokens": [
+                "Wash",
+                "ington",
+                " D",
+                ".",
+                "C",
+                "."
+              ]
+            },
+            "example3": {
+              "text": "Artificial Intelligence",
+              "tokens": [
+                "Art",
+                "ific",
+                "ial",
+                " Int",
+                "ell",
+                "igence"
+              ]
+            },
+            "example4": {
+              "text": "The Statue of Liberty",
+              "tokens": [
+                "The",
+                " Stat",
+                "ue",
+                " of",
+                " Lib",
+                "erty"
+              ]
+            },
+            "example5": {
+              "text": "Prompt engineering",
+              "tokens": [
+                "Prom",
+                "pt",
+                " eng",
+                "ine",
+                "ering"
+              ]
+            }
+          },
+          "tryExamples": "Опитайте примерите или напишете свой текст"
+        },
+        "temperature": {
+          "prompt": "What is the capital of France?",
+          "lowTemp": [
+            "The capital of France is Paris.",
+            "The capital of France is Paris.",
+            "The capital of France is Paris."
+          ],
+          "mediumLowTemp": [
+            "The capital of France is Paris.",
+            "Paris is the capital of France.",
+            "The capital of France is Paris, a major European city."
+          ],
+          "mediumHighTemp": [
+            "Paris serves as the capital of France.",
+            "The capital of France is Paris, home to the Eiffel Tower.",
+            "France's capital is the historic and romantic city of Paris."
+          ],
+          "highTemp": [
+            "Paris, the City of Light, proudly stands as France's magnificent capital!",
+            "France's romantic capital is none other than the enchanting city of Paris.",
+            "The heart of France beats in Paris, its beloved capital of art and culture."
+          ]
+        },
+        "fewShot": {
+          "examples": [
+            {
+              "input": "I love this product!",
+              "output": "Positive"
+            },
+            {
+              "input": "Terrible experience, waste of money",
+              "output": "Negative"
+            },
+            {
+              "input": "It's okay, nothing special",
+              "output": "Neutral"
+            }
+          ],
+          "testCase": {
+            "input": "Great quality but slow shipping",
+            "expected": "Mixed"
+          },
+          "labels": {
+            "positive": "Положителен",
+            "negative": "Отрицателен",
+            "neutral": "Неутрален",
+            "mixed": "Смесен"
+          }
+        }
+      },
+      "promptChallenge": "Предизвикателство с промптове",
+      "yourTask": "Вашата задача:",
+      "yourPromptWillBeScoredOn": "Вашият промпт ще бъде оценен по:",
+      "startChallenge": "Започни предизвикателството",
+      "writeYourPromptHere": "Напишете вашия промпт тук...",
+      "points": "точки",
+      "hints": "Подсказки",
+      "hintsUsed": "{used}/{total} използвани, всяка -5 точки",
+      "revealNextHint": "Разкрий следващата подсказка (-5 точки)",
+      "submitForScoring": "Изпрати за оценяване",
+      "aiCallsRemaining": "Оставащи AI извиквания",
+      "excellent": "🎉 Отлично!",
+      "goodEffort": "👍 Добър опит!",
+      "keepPracticing": "Продължавайте да тренирате!",
+      "criteriaBreakdown": "Разбивка по критерии:",
+      "suggestionsForImprovement": "Предложения за подобрение:",
+      "exampleSolution": "Примерно решение",
+      "hide": "Скрий",
+      "show": "Покажи",
+      "improveThisPrompt": "Подобрете този промпт",
+      "improveThisPromptTask": "Подобрете този промпт за по-добри резултати",
+      "improvePromptTask": "Подобрете този промпт за по-добри резултати",
+      "originalWeakPrompt": "Оригинален (слаб) промпт",
+      "yourImprovedVersion": "Вашата подобрена версия",
+      "compareWithAI": "Сравни с AI",
+      "reset": "Нулирай",
+      "showIdealSolution": "Покажи идеалното решение",
+      "hideIdealSolution": "Скрий идеалното решение",
+      "idealSolution": "Идеално решение",
+      "yourVersionBetter": "🎉 Вашата версия е по-добра!",
+      "yourVersionIsBetter": "🎉 Вашата версия е по-добра!",
+      "keepImproving": "Оригиналът може все още да е по-добър. Продължавайте да подобрявате!",
+      "originalMightBeBetter": "Оригиналът може все още да е по-добър. Продължавайте да подобрявате!",
+      "keyDifferences": "Основни разлики:",
+      "beginner": "начинаещ",
+      "intermediate": "среден",
+      "advanced": "напреднал",
+      "youllHaveTime": "Ще имате {time} да завършите това предизвикателство.",
+      "takeYourTime": "Отделете си време и създайте най-добрия промпт.",
+      "pleaseWritePromptBeforeSubmitting": "Моля, напишете промпт преди да изпратите",
+      "fillInTheBlanks": "Попълнете празните места",
+      "perfect": "🎉 Перфектно!",
+      "ofCorrect": "{score} / {total} правилни",
+      "correctAnswer": "Правилен отговор:",
+      "checking": "Проверяване...",
+      "checkAnswers": "Провери отговорите",
+      "tryAgain": "Опитай пак",
+      "aiPoweredValidation": "Семантична валидация, задвижвана от AI",
+      "hintForBlank": "Подсказка:",
+      "wellStructuredPrompt": "🎉 Добре структуриран промпт!",
+      "consistencyIssuesFound": "Намерени са някои проблеми с последователността",
+      "issues": "Проблеми:",
+      "aiValidationFailed": "AI валидацията е неуспешна. Използва се локална валидация.",
+      "aiCheckFailed": "AI проверката е неуспешна. Моля, опитайте отново.",
+      "checklist": "Контролен списък",
+      "complete": "завършено",
+      "allDoneGreatWork": "🎉 Всичко е готово! Чудесна работа!",
+      "debugThisPrompt": "Дебъгнете този промпт",
+      "hideHint": "Скрий подсказка",
+      "showHint": "Покажи подсказка",
+      "thePrompt": "Промптът:",
+      "theOutputProblematic": "Изходът (проблематичен):",
+      "whatsWrongWithThisPrompt": "Какво не е наред с този промпт?",
+      "jailbreakAttackSimulator": "Симулатор на jailbreak атаки",
+      "selectAttackType": "Изберете тип атака, за да видите как работи и тествайте дали AI се защитава:",
+      "systemPromptDefense": "Системен промпт (Защита)",
+      "attackAttempt": "Опит за атака",
+      "whatThisAttackDoes": "Какво прави тази атака:",
+      "testJailbreakDefense": "Тествай защитата срещу jailbreak",
+      "systemPromptLabel": "СИСТЕМЕН ПРОМПТ",
+      "userAttemptsJailbreak": "ПОТРЕБИТЕЛЯТ ОПИТВА JAILBREAK",
+      "sequentialChain": "Последователна верига",
+      "parallelChain": "Паралелна верига",
+      "conditionalChain": "Условна верига",
+      "iterativeChain": "Итеративна верига",
+      "running": "Изпълнение...",
+      "run": "Изпълни",
+      "outputLabel": "Изход",
+      "skippedConditionNotMet": "Пропуснато — условието не е изпълнено",
+      "iterationOf": "Итерация {current} от {total}",
+      "previousOutputAsInput": "Предишният изход като вход",
+      "loopUntilQualityMet": "Повтаряй докато прагът за качество бъде достигнат",
+      "chainErrorHandlingDemo": "Демо за обработка на грешки във вериги",
+      "attempt": "Опит",
+      "retryingWithFeedback": "Повторен опит с обратна връзка за грешка...",
+      "switchingToFallback": "Превключване към резервен подход...",
+      "failed": "Неуспешно",
+      "retry": "Повторен опит",
+      "fallback": "Резервен вариант",
+      "contextPlayground": "Площадка за контекст",
+      "toggleContextBlocks": "Включвайте/изключвайте контекстни блокове, за да видите как се комбинират. Следете броя на токените!",
+      "overContextLimit": "Над лимита на контекста! Част от съдържанието ще бъде отрязано.",
+      "enableContextBlocksToBuild": "Активирайте някои контекстни блокове, за да изградите промпт",
+      "testContext": "Тестов контекст",
+      "links": "Връзки"
+    },
+    "printTitle": "Книгата за промптинг",
+    "printSubtitle": "Ръководство за създаване на ясни и ефективни промптове",
+    "downloadPdf": "Изтегли като PDF"
+  },
+  "userExamples": {
+    "addMyExample": "Добави моя пример",
+    "addExampleTitle": "Добавете вашия пример",
+    "addExampleDescriptionImage": "Споделете изображение, което сте създали с този промпт.",
+    "addExampleDescriptionVideo": "Споделете видео, което сте създали с този промпт.",
+    "imageUrl": "URL на изображение",
+    "videoUrl": "URL на видео",
+    "imagePreview": "Преглед на изображение",
+    "videoPreview": "Преглед на видео",
+    "urlTab": "URL",
+    "uploadTab": "Качване",
+    "clickToUpload": "Кликнете за качване на изображение",
+    "clickToUploadVideo": "Кликнете за качване на видео",
+    "uploading": "Качване...",
+    "maxFileSize": "Макс. 4MB (JPEG, PNG, GIF, WebP)",
+    "fileTooLarge": "Файлът е твърде голям. Максималният размер е 4MB.",
+    "invalidFileType": "Невалиден тип файл. Само JPEG, PNG, GIF и WebP са разрешени.",
+    "invalidVideoType": "Невалиден тип файл. Само MP4 видеа са разрешени.",
+    "commentOptional": "Коментар (незадължително)",
+    "commentPlaceholder": "Опишете вашето творение или споделете съвети...",
+    "cancel": "Отказ",
+    "submit": "Изпрати",
+    "communityExamples": "Примери от общността",
+    "userExample": "Потребителски пример"
   }
 }
